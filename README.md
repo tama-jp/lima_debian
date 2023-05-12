@@ -3,16 +3,28 @@
 
 Dockerデスクトップは、削除
 
-brew install lima
 
-brew install lima docker
+lima インストール
+
+
+```
+brew install lima
+```
+
+Docker インストール
+
+```
+brew install docker
+```
 
 docker-compose を使う予定がある場合
 docker-compose のインストール
 
+```
 brew install docker-compose
 mkdir -p ~/.docker/cli-plugins
 ln -sfn /usr/local/opt/docker-compose/bin/docker-compose ~/.docker/cli-plugins/docker-compose
+```
 
 
 vim ~/.docker/config.json
